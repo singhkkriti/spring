@@ -27,14 +27,17 @@ public class joboffersDropdownmatchwithjobs {
 		WebElement valuedrop=driver.findElement(By.id("ddlpageList"));
 		Select sel=new Select(valuedrop);
 	    sel.selectByVisibleText("10");
+	   
+	    
 	    List<WebElement>links1=sel.getOptions();
 	    System.out.println("links are"+  links1.size());
 	    
 	    
-	    //driver.get("https://www.springprofessional.lu/en-gb/candidates/job-offers");
-	    //driver.navigate().refresh();
+	   
 	    WebElement dropelement = sel.getFirstSelectedOption();
 		int count=Integer.parseInt(dropelement.getText());
+		
+		
 		//verify whether results are displayed according to dropdown
 		//List<WebElement>links=driver.findElements(By.xpath("//a[@class='btn btn-sm btn-success pull-right']"));
 		//List<WebElement>links=driver.findElements(By.xpath("//div[@class='row']/div[@class='button-container']/a[@class='btn btn-sm btn-success pull-right']"));
