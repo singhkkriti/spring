@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T20:52:31Z" name="Default suite" finished-at="2022-10-07T20:53:18Z" duration-ms="46765">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T20:52:31Z" name="Default test" finished-at="2022-10-07T20:53:18Z" duration-ms="46765">
+      <class name="JobOffersTestCases.JobDomainTypeTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JobOffersTestCases.JobDomainTypeTestCase@7b8b43c7]" started-at="2022-10-08T02:22:31Z" name="setup" finished-at="2022-10-08T02:22:37Z" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp()[pri:0, instance:JobOffersTestCases.JobDomainTypeTestCase@7b8b43c7]" started-at="2022-10-08T02:22:37Z" name="loginApp" finished-at="2022-10-08T02:23:18Z" duration-ms="41297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+      </class> <!-- JobOffersTestCases.JobDomainTypeTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
