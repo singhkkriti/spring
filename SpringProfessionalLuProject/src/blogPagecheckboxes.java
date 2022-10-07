@@ -41,12 +41,12 @@ public void checktextlinks()
 	  // driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	  // driver.navigate().refresh();
 	
-	  //  List<WebElement> weblist=driver.findElements(By.xpath("//div[@class='listing__result--footer']//span[@data-bind='text: TypeCategory.Title']"));
+	    List<WebElement> weblist=driver.findElements(By.xpath("//div[@class='listing__result--footer']//span[@data-bind='text: TypeCategory.Title']"));
 	
-	    for(int j=0;j<5;j++)
+	    for(int j=0;j<weblist.size();j++)
 	    {
 	    	   driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-	    	List<WebElement> weblist=driver.findElements(By.xpath("//div[@class='listing__result--footer']//span[@data-bind='text: TypeCategory.Title']"));
+	    	List<WebElement> weblist1=driver.findElements(By.xpath("//div[@class='listing__result--footer']//span[@data-bind='text: TypeCategory.Title']"));
 	    	WebElement elelist=weblist.get(j);
 	    	System.out.println(elelist.getText());
 	    	
