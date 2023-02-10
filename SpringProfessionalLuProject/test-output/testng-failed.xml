@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jobofferstitleMatchedwithcheckedboxText">
+      <class name="full_parttimeJobOffers">
         <methods>
-          <include name="match"/>
+          <include name="verifyemp"/>
         </methods>
-      </class> <!-- jobofferstitleMatchedwithcheckedboxText -->
+      </class> <!-- full_parttimeJobOffers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
